@@ -10,3 +10,10 @@ call plug#end()
 " Key mappings
 
 inoremap jk <Esc>
+
+" vimtex config
+"
+" use xelatex compiler
+let g:vimtex_compiler_latexmk_engines = {
+    \ '_'                : '-xelatex',
+    \}
