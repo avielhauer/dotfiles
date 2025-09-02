@@ -1,5 +1,4 @@
 " Plugins
-
 call plug#begin()
 
 " List your plugins here
@@ -10,6 +9,11 @@ call plug#end()
 " Key mappings
 
 inoremap jk <Esc>
+
+" Identation
+set shiftwidth=4 smarttab
+set expandtab
+set tabstop=8 softtabstop=0
 
 " vimtex config
 "
